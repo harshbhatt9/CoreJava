@@ -26,6 +26,8 @@ public class Palin {
 			
 			rev = rev + ori.charAt(i);
 			
+		    log.info(rev);
+		
 			if(ori.equals(rev))
 				log.info("Enter String is Palindrom ");
 			else
